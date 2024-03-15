@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=k, initial-scale=1.0">
+                                             <!-- le titre de la page -->
+    <title>cours html</title>
+                                                <!--icone de l'onglet-->
+    <link rel="shortcut icon" href="logo-html.png">
+</head>
+
+<body>
+    <header>
+        <h1><s>&#9999;</s>Texte - titre h1</h1>
+        <p>texte basique. <em>voici un texte en italique</em>.<strong> et
+                un texte en gras </strong>. <span>L'elemnt en span de revient pas a la
+                ligne</span>.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque praesentium rerum voluptatibus
+            odio eaque cupiditate qui quaerat nisi, fuga velit earum in, dolor adipisci voluptas obcaecati eum? Neque,
+            accusamus.</p>
+    </header>
+    <section>
+        </div>
+        <h2>Photo - titre h2</h2>
+        <img src="magasin de furneme.PNG" height="200" alt="image du magasin">
+        </div>
+        <div>
+            <h3>liste - titre h3</h3>
+            <ul>
+                <li>UL = unordere (liste pas rangé)</li>
+                <li>UL = unordere (liste pas rangé)</li>
+                <li>UL = unordere (liste pas rangé)</li>
+            </ul>
+            <OL>
+                <LI>OL = orderd liste</LI>
+                <LI>OL = orderd liste</LI>
+                <LI>OL = orderd liste</LI>
+            </OL>
+        </div>
+        <div>
+            <h4>tableaux - titre h4</h4>
+            <table border="1" width="50%">
+                                                <!-- Légende -->
+                <caption>Population d'europe</caption>
+                                                <!-- En-tete -->
+                <thead>
+                    <tr>
+                        <th>pays</th>
+                        <th>Population</th>
+                    </tr>
+                </thead>
+                                                <!-- corps du tableau -->
+                <tbody>
+                    <tr>
+                        <td>France</td>
+                        <td>66M</td>
+                    </tr>
+                    <tr>
+                        <td>Allamgne</td>
+                        <td>82M</td>
+                    </tr>
+                    <tr>
+                        <td>Espagne</td>
+                        <td>47M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5> liens - titre h5</h5>
+            <a href="https://www.youtube.com/watch?v=qsbkZ7gIKnc&t=278s" target="_blank">la milleur chaine de codage</a>
+            <br>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blank">icone en html</a>
+        </div>
+        <div>
+            <h6>vidéo - tite h6</h6>
+            <video src="vidéo2.mp4" height="150" autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+                                            <!-- formulaire -->
+    <section>
+        <h2>formulaire</h2>
+        <form action="/action.php" method="post">
+         <label for="name">Tu t'apelles ? :</label>
+         <input id="name" type="texte" placeholder="Entrez
+         votre nom"><br>
+        <label for="age">Age</label>
+        <input id="age" type="number" min="0" max="99" step="1" value="18"></br>
+
+                                            <!-- input select -->
+        <label for="sexe">sexe</label>
+        <select id="sexe">
+            <option value="homme">Homme</option>
+            <option selected value="femme">Femme</option>
+        </select><br>
+                                            <!-- input radio -->
+        <div>
+        <input type="radio" name="type" id="human">
+        <label for="human">Human</label>
+
+        <input type="radio" name="type" checked id="dog">
+        <label for="dog">Chien</label>
+
+        <input type="radio" name="type" id="cat">
+        <label for="cat">chat</label>
+        </div>
+
+            <textarea cols="30" rows="10" placeholder="Entrer votre demande ici &#9755;"></textarea><br>
+
+            <!-- input checkbox -->
+            <label><input type="checkbox" name="" id="">si tu acceptes tu meurts</label>
+            <input type="submit" value="Valider &#10003;">
+        </form>
+    </section>
+    <br>
+    <!-- mail & envoi de fichier -->
+    <footer>
+        <a href="mailto:ytb.kollope@gmail.com">Ecrivez-moi ! c'est mon mail
+        </a>
+        <br>
+       <a href="vidéo2.mp4" download="notice du fion">la musique de l'année bg</a> 
+    </footer>
+</body>
+
+</html>
